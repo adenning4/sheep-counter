@@ -1,0 +1,71 @@
+html {
+  max-width: 800px;
+}
+
+body {
+  background-color: #222222;
+  background-size: cover;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#increment-btn {
+  background: #723300;
+}
+
+#save-btn {
+  background: rgb(0, 81, 255);
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+#imgContainer {
+  width: 200px;
+  height: 300px;
+  transform: translate(-210px);
+  animation: move1 3s linear infinite;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-width: 100%;
+}
+
+@keyframes move1 {
+  from {
+    transform: translate(-210px);
+  }
+  to {
+    transform: translate(600px);
+  }
+}
